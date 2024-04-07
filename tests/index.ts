@@ -1,5 +1,5 @@
 import * as assert from "node:assert";
-import {SmokeTest} from "../dist";
+import {SmokeTest} from "../dist/index";
 
 describe("index", () => {
     it('should say "hello world"', () => {
