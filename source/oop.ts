@@ -58,7 +58,7 @@ abstract class AbstractPlayer {
     private _health: number;
     private _speed: number;
 
-    constructor(health: number, speed: number) {
+    protected constructor(health: number, speed: number) {
         this._health = health;
         this._speed = speed;
     }
